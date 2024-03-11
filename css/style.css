@@ -156,6 +156,39 @@ p{
 }
 
 /* 2. Navbar */
+.header_wrapper{
+    padding: .9375rem;
+    background-color: transparent;
+    transition: 0.3s ease-in-out;
+}
+.header_wrapper .navbar-toggler,
+.header_wrapper .navbar-toggler:focus{
+    border: 0;
+    box-shadow: none;
+    color: var(--text-black);
+    line-height: 2;
+}
+.header_wrapper .nav-item{
+    margin: 0 .625rem;
+}
+.header_wrapper .nav-item .nav-link{
+    font-size: 1.125rem;
+    font-weight: 400;
+    color: var(--primary-text);
+    display: inline-block;
+    font-family: var(--secondary-font);
+}
+.header_wrapper .nav-item .nav-link:hover,
+.header_wrapper .nav-item .nav-link:focus
+.header_wrapper .nav-item .nav-link.active{
+    color: var(--secondary-text);
+}
+.navbar .header-scrolled{
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+}
 
 /* 3. Banner */
 
