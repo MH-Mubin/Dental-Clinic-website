@@ -7,8 +7,14 @@
     }
 
     /* header */
+    .header_wrapper .navbar-nav .nav-link{
+        font-size: 1rem;
+    }
 
     /* top banner */
+    .banner_wrapper .animate-img .aimg1{
+        left: -3.125rem;
+    }
 
     /* about */
 
@@ -48,8 +54,28 @@
         padding: 1.875rem 1rem;
     }
     /* Navbar */
-    
+    .header-scrolled{
+        height: auto;
+    }
+    .header_wrapper .menu-navbar-nav{
+        text-align: center;
+    }
+    .header_wrapper .nav-item .nav-link{
+        margin-top: .9375rem;
+    }
+
+    /* .header_wrapper .navbar-brand {
+        margin-left: 2px;
+    }
+    .header_wrapper .navbar-toggler{
+        margin-right: 2px;
+    } */
+
+
     /* Banner */
+    .banner_wrapper p{
+        max-width: 100%;
+    }
     
     /* about */
     
