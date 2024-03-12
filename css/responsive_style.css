@@ -17,6 +17,13 @@
     }
 
     /* about */
+    .about_wrapper .about-animate{
+        position: absolute;
+        left: -2.5rem;
+        bottom: 0;
+        -webkit-animation:movebounce 3s linear infinite;
+        animation:movebounce 3s linear infinite;
+    }
 
     /* service */
 
