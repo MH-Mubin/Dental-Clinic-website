@@ -290,13 +290,14 @@ p{
 .about_wrapper .about-clinic:nth-child(4){
     padding-left: 3.75rem;
 }
+
 .about_wrapper .line-1,
 .about_wrapper .line-2{
     content: '';
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50% -50%);
+    transform: translate(-50%, -50%);
     width: .0313rem;
     height: 100%;
     background: var(--bg-dark);
@@ -305,6 +306,7 @@ p{
     width: 100%;
     height: .0625rem;
 }
+
 .about_wrapper .about-animate{
     position: absolute;
     left: -2.5rem;
