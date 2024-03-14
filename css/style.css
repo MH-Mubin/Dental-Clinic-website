@@ -378,11 +378,34 @@ p{
 
 /* 7. Gallery section */
 
+.gallery_wrapper{
+    background-image: url(../Images/gallery/gallery-background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.gallery_wrapper img{
+    border-radius: .9375rem;
+}
+
 /* 8. Testimonial section */
+.testimonial_wrapper .card{
+    background-color: rgba(252, 81, 133, .05);
+}
 
 /* 9. Appointment */
+.appointment_wrapper{
+    background-image: url(../Images/appointmnet-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 
 /* 10. Blog */
+.blog_wrapper .blog-content{
+    background-color: var(--bg-light-blue);
+    padding: 2.5rem;
+}
 
 /* 11. Contact */
 
