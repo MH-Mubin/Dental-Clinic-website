@@ -107,6 +107,10 @@
     }
     
     /* blog */
+    .blog_wrapper .card .blog-content{
+        padding: 1.875rem .625rem;
+    }
+
 }
 @media (max-width: 767px){
     .main-btn{
@@ -125,6 +129,9 @@
     }
     
     /* blog */
+    .blog_wrapper .card .blog-content{
+        margin: 0;
+    }
     
     /* footer */
 }
